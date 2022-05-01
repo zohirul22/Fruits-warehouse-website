@@ -1,5 +1,6 @@
 import { Route, Routes } from 'react-router-dom';
 import './App.css';
+import Categories from './Page/Categories/Categories';
 import Home from './Page/Home/Home';
 import Inventory from './Page/Inventory/Inventory';
 

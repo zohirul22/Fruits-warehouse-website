@@ -81,6 +81,26 @@
         "supplier ":"Mhafuz",
         "description": "This is indian fruit.its very testy. ",
         "img": "https://i.ibb.co/f9V69Gf/f2.webp"
+    },
+    {
+      
+        "name": "Mango ",
+        "price": "175.00",
+        "id":8,
+        "quantity":"92",
+        "supplier ":"Mhafuz",
+        "description": "This is indian fruit.its very testy. ",
+        "img": "https://i.ibb.co/f9V69Gf/f2.webp"
+    },
+    {
+      
+        "name": "Mango ",
+        "price": "175.00",
+        "id":8,
+        "quantity":"92",
+        "supplier ":"Mhafuz",
+        "description": "This is indian fruit.its very testy. ",
+        "img": "https://i.ibb.co/f9V69Gf/f2.webp"
     }
   
 ]
