@@ -10,7 +10,7 @@ const Categories = () => {
             .then(data => setCategoris(data))
     }, [])
     return (
-        <div id=''>
+        <div id='categoris'>
             <h1 className='text-center text-success mb-4'>Top Categories</h1>
             <div className="categoris">
                 {

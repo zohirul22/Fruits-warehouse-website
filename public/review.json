@@ -1,0 +1,32 @@
+[
+    {
+        "name": "Shahin",
+        "Rating": "3.44",
+        "id": 1,
+        "title": "Awesome...",
+        "Purchased": "Fresh Fruits",
+        "description": "It's retail shop for daily needs.",
+        "img": "https://i.ibb.co/VVzs6w6/man3.webp",
+        "date": "Monday, Feb 12, 2022"
+    },
+    {
+        "name": "Sumon",
+        "Rating": "5.00",
+        "id": 2,
+        "title": "Awesome...",
+        "Purchased": "Fresh Fruits",
+        "description": "This place is amazing , the quality of fruits and vegetables are awesome",
+        "img": "https://i.ibb.co/svCPVvS/man2.webp",
+        "date": "Sunday, Jan 2, 2022"
+    },
+    {
+        "name": "Taniya",
+        "Rating": "4.44",
+        "id": 3,
+        "title": "Excellent...",
+        "Purchased": "Fresh Fruits",
+        "description": "The quality of fruits and vegetables is excellent",
+        "img": "https://i.ibb.co/QkxsfLj/women.webp",
+        "date": "Friday, Dec 2, 2022"
+    }
+]
