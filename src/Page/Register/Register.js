@@ -26,7 +26,7 @@ const Register = () => {
 
         <div className='w-50 mx-auto'>
 
-            <h1 className='text-center'>Registar</h1>
+            <h1 className='text-center my-5 text-success'>Registar</h1>
             <Form onSubmit={handelAddToSubmit}>
                 <Form.Group className="mb-3" >
                     <Form.Label>Your Name</Form.Label>
