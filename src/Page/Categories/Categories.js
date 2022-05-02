@@ -10,8 +10,9 @@ const Categories = () => {
             .then(data => setCategoris(data))
     }, [])
     return (
-        <div id='categoris'>
-            <h1 className='text-center text-success mb-4'>Top Categories</h1>
+        <div id='categoris' className='container'>
+
+            <h1 className='text-center text-success mt-4  mb-5'>Top Categories</h1>
             <div className="categoris">
                 {
                     categoris.map(categori => <Categori

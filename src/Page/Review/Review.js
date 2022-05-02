@@ -4,7 +4,7 @@ import './Review.css'
 const Review = ({review}) => {
     const {name,img,Rating,title,Purchased,date,description} =review;
     return (
-        <div className='review container'>
+        <div className='review container  shadow-lg mb-5 bg-white rounded'>
            <img  style={{width:"200px"}} src={img} alt="" />
            <h1>Name:{name}</h1>
            <h3 className='text-danger'>Rating:{Rating}</h3>

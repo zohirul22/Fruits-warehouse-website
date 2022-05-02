@@ -1,0 +1,21 @@
+.footer {
+    display: grid;
+    grid-template-columns: auto auto;
+    background-color: rgb(243, 228, 228);
+}
+
+.left-side {
+    margin-left: 200px;
+    font-size: 30px;
+}
+
+.right-side {
+    margin-left: 300px;
+}
+
+span>img {
+    width: 50px;
+    border: 10px solid yellowgreen;
+    border-radius: 100px;
+
+}
