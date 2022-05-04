@@ -1,8 +1,17 @@
 import React from 'react';
+import { useNavigate } from 'react-router-dom';
 import './Inventor.css'
 
 const Inventor = ({inventor}) => {
-    const {img , name ,price,quantity, supplier ,description} = inventor;
+    const {id ,img , name ,price,quantity, supplier ,description} = inventor;
+    const navigate =useNavigate();
+
+const navigateUpdate =(id) =>{
+    navigate(`/inventor/${id}`)
+}
+
+
+
     return (
         <div className='inventor   shadow-lg  mb-5 bg-white rounded'>
     
@@ -12,6 +21,7 @@ const Inventor = ({inventor}) => {
        <h4 className='text-primary'>Rs.{price}</h4>
        <h5>Supplier Name:{supplier}</h5>
        <p><small>{description}</small></p>
+       <button onClick={()=>navigateUpdate(id)}  className='btn btn-info'>Stock Update :{name}</button>
      
    </div>
     );
