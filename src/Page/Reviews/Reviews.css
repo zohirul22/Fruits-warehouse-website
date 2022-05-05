@@ -3,3 +3,20 @@
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 10px;
 }
+
+
+/* make services responsive */
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    .reviews {
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 10px;
+    }
+  }
+/* Large devices (laptops/desktops, 992px and up) */
+  @media only screen and (max-width: 992px) {
+    .reviews {
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 10px;
+    }
+  }

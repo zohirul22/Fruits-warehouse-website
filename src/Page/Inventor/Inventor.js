@@ -14,7 +14,6 @@ const navigateUpdate =(id) =>{
 
     return (
         <div className='inventor   shadow-lg  mb-5 bg-white rounded'>
-    
        <img style={{width:"150px"}} src={img} alt="" />
        <h2 className='text-primary'>{name}</h2>
        <h3 className='text-secondary'>Quantity:{quantity}</h3>
