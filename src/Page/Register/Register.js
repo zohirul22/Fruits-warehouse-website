@@ -1,9 +1,11 @@
 import React, { useRef } from 'react';
 import { Button, Form } from 'react-bootstrap';
-import { Link, useNavigate } from 'react-router-dom';
-import { useCreateUserWithEmailAndPassword } from 'react-firebase-hooks/auth';
+import { Link, Navigate, useNavigate } from 'react-router-dom';
+import { useCreateUserWithEmailAndPassword, useUpdateProfile } from 'react-firebase-hooks/auth';
 import auth from '../../firebase.init';
 import Social from '../Social/Social';
+import { updateProfile } from 'firebase/auth';
+
 
 const Register = () => {
 
@@ -12,7 +14,9 @@ const Register = () => {
         user,
         loading,
         error,
-    ] = useCreateUserWithEmailAndPassword(auth);
+    ] = useCreateUserWithEmailAndPassword(auth ,{sendEmailVerification:true});
+
+   
 
     const nameRef = useRef('');
     const emailRef = useRef('');
@@ -20,17 +24,19 @@ const Register = () => {
     const navigate = useNavigate();
 
 
-    const handelAddToSubmit = (event) => {
+    const handelAddToSubmit =async (event) => {
         event.preventDefault();
         const name = nameRef.current.value;
         const email = emailRef.current.value;
         const password = passwordRef.current.value;
-        createUserWithEmailAndPassword(email, password)
+        await createUserWithEmailAndPassword(email, password);
+        await updateProfile({ displayName: name });
+        alert('Updated profile');
     }
 
 
-    const navigateLogin = () => {
-        navigate('/login');
+    const handelRegistar = (event) => {
+        Navigate('/login');
     }
     if (user) {
         navigate('/home')
@@ -70,7 +76,7 @@ const Register = () => {
                 </Button>
             </Form>
             <p className='text-success'>Already have an account? <Link to={'/login'}
-                className='text-danger fs-4 ' onClick={navigateLogin} >Please Login</Link> </p>
+                className='text-danger fs-4 ' onClick={handelRegistar} >Please Login</Link> </p>
 
             <Social></Social>
         </div>
