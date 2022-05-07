@@ -1,106 +1,82 @@
 [
-   
-       
     {
-      
-        "name": "Dragon Fruit",
+        "name": "Water Melon",
         "price": "130.00",
-        "id":1,
-        "quantity":"212",
-        "supplier ":"Tamim",
+        "quantity": "10",
+        "supplier ": "Tamim",
         "description": "This fruit is very healthily for people",
         "img": "https://i.ibb.co/wc99pFm/f1.webp"
     },
     {
-       
-        "name": "Pineapple",
+        "name": "Apple",
         "price": "160.00",
-        "id":2,
-        "quantity":"162",
-        "supplier":"Afsana",
+        "quantity": "12",
+        "supplier": "Afsana",
         "description": "Pineapple is very testy fruit.",
         "img": "https://i.ibb.co/gyHCqjB/g9.webp"
     },
     {
-       
-        "name": "Tender Coconut",
+        "name": "Anaar Indain",
         "price": "75.00",
-        "id":3,
-        "quantity":"102",
-        "supplier":"Zohirul",
+        "quantity": "12",
+        "supplier": "Zohirul",
         "description": "Coconuts has fresh water,thats our give iron.",
         "img": "https://i.ibb.co/gR2JZXG/f10.webp"
     },
     {
-       
-        "name": "Guava",
+        "name": "Strawberry",
         "price": "15.00",
-        "id":4,
-        "quantity":"132",
-        "supplier":"Sumon",
+        "quantity": "13",
+        "supplier": "Sumon",
         "description": "This fruit is very good",
         "img": "https://i.ibb.co/ynfznjL/f5.webp "
     },
     {
-    
-        "name": "Anaar Indian",
+        "name": "Tender cocount",
         "price": "13.00",
-        "id":5,
-        "quantity":"89",
-        "supplier":"Bisty",
+        "quantity": "9",
+        "supplier": "Bisty",
         "description": "This fruit keep our blood fresh",
-        "img": "https://i.ibb.co/wc99pFm/f1.webp"
+        "img": "https://i.ibb.co/vBnbtk2/f13.webp"
     },
- 
     {
-     
-        "name": "Orange",
+        "name": "Jamun Box",
         "price": "100.00",
-        "id":6,
-        "quantity":"12",
-        "supplier":"kamal",
+        "quantity": "12",
+        "supplier": "kamal",
         "description": "Many people lover orange cause its testy fruit",
         "img": "https://i.ibb.co/WzFS3Qg/f16.webp"
     },
     {
-     
-        "name": "Water Melon",
+        "name": "Banana",
         "price": "210.00",
-        "id":7,
-        "quantity":"112",
-        "supplier ":"Shahin",
+        "quantity": "11",
+        "supplier ": "Shahin",
         "description": "This is good fruit",
-        "img": "https://i.ibb.co/YPsXzs1/f5.webp"
+        "img": "https://i.ibb.co/Yk6kmBn/f3.webp"
     },
     {
-      
         "name": "Mango ",
         "price": "175.00",
-        "id":8,
-        "quantity":"92",
-        "supplier ":"Mhafuz",
+        "quantity": "9",
+        "supplier ": "Mhafuz",
         "description": "This is indian fruit.its very testy. ",
         "img": "https://i.ibb.co/f9V69Gf/f2.webp"
     },
     {
-      
-        "name": "Mango ",
+        "name": "Orange ",
         "price": "175.00",
-        "id":8,
-        "quantity":"92",
-        "supplier ":"Mhafuz",
+        "quantity": "9",
+        "supplier ": "Mhafuz",
         "description": "This is indian fruit.its very testy. ",
-        "img": "https://i.ibb.co/f9V69Gf/f2.webp"
+        "img": "https://i.ibb.co/NT69QGF/f7.webp"
     },
     {
-      
-        "name": "Mango ",
+        "name": "Guava ",
         "price": "175.00",
-        "id":8,
-        "quantity":"92",
-        "supplier ":"Mhafuz",
+        "quantity": "22",
+        "supplier ": "Mhafuz",
         "description": "This is indian fruit.its very testy. ",
-        "img": "https://i.ibb.co/f9V69Gf/f2.webp"
+        "img": "https://i.ibb.co/wzgrYCw/f11.webp"
     }
-  
 ]

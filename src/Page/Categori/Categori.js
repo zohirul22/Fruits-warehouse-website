@@ -2,7 +2,7 @@ import React from 'react';
 import './Categori.css'
 
 const Categori = ({ categori }) => {
-    const { img, name } = categori;
+    const {_id, img, name } = categori;
     return (
         <div className='categori container  shadow-lg  mb-5 bg-white rounded'>
             <img style={{ width: "150px" }} src={img} alt="" />

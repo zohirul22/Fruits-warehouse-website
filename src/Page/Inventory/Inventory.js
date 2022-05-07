@@ -6,7 +6,7 @@ import './Inventory.css'
 const Inventory = () => {
     const [inventory, setInventory] = useState([]);
     useEffect(() => {
-        fetch('services.json')
+        fetch('http://localhost:5000/catagori')
             .then(res => res.json())
             .then(data => setInventory(data))
     }, [])
@@ -18,7 +18,7 @@ const Inventory = () => {
             <div className="inventory">
                 {
                     inventory.slice(0, 6).map(inventor => <Inventor
-                        key={inventor.id}
+                        key={inventor._id}
                         inventor={inventor}
                     ></Inventor>)
                 }

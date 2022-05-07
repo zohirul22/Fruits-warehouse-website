@@ -5,7 +5,7 @@ import './Categories.css'
 const Categories = () => {
     const [categoris, setCategoris] = useState([]);
     useEffect(() => {
-        fetch('services.json')
+        fetch('http://localhost:5000/catagori')
             .then(res => res.json())
             .then(data => setCategoris(data))
     }, [])
@@ -15,8 +15,8 @@ const Categories = () => {
             <h1 className='text-center text-success mt-4  mb-5'>Top Categories</h1>
             <div className="categoris">
                 {
-                    categoris.map(categori => <Categori
-                        key={categori.id}
+                    categoris.map(categori => <Categori 
+                        key={categori._id}
                         categori={categori}
                     ></Categori>)
                 }

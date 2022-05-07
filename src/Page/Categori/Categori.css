@@ -3,5 +3,16 @@
     border-radius: 10px;
     padding-bottom: 10px;
     text-align: center;
+    padding: 20px;
 
+}
+
+.categori > img{
+    cursor: pointer;
+    transition: .5s;
+  
+}
+
+.categori>img:hover{
+    transform:scale(1.2) ;
 }

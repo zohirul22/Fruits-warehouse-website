@@ -20,10 +20,8 @@ function App() {
         <Route path='/home' element={<Home></Home>}></Route>
         <Route path='inventor/:inventorId' element={
           <RequireAuth>
-
             <Updatepage></Updatepage>
           </RequireAuth>
-
         }></Route>
         <Route path='/blog' element={<Blog></Blog>}></Route>
         <Route path='/login' element={<Login></Login>}></Route>

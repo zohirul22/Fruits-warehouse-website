@@ -14,9 +14,9 @@ const Register = () => {
         user,
         loading,
         error,
-    ] = useCreateUserWithEmailAndPassword(auth ,{sendEmailVerification:true});
+    ] = useCreateUserWithEmailAndPassword(auth, { sendEmailVerification: true });
 
-   
+
 
     const nameRef = useRef('');
     const emailRef = useRef('');
@@ -24,7 +24,7 @@ const Register = () => {
     const navigate = useNavigate();
 
 
-    const handelAddToSubmit =async (event) => {
+    const handelAddToSubmit = async (event) => {
         event.preventDefault();
         const name = nameRef.current.value;
         const email = emailRef.current.value;
