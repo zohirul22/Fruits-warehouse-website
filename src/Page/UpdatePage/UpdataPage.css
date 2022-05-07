@@ -1,3 +1,8 @@
-.all-inventor{
-  
+.all-inventor>img {
+    cursor: pointer;
+    transition: .5s;
+}
+
+.all-inventor>img:hover {
+    transform: scale(1.2) rotate(360deg);
 }

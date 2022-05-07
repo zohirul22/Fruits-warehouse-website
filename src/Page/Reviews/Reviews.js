@@ -5,7 +5,7 @@ import './Reviews.css'
 const Reviews = () => {
     const [reviews, setReviews] = useState([]);
     useEffect(() => {
-        fetch('review.json')
+        fetch('http://localhost:5000/review')
             .then(res => res.json())
             .then(data => setReviews(data))
     }, [])
@@ -16,7 +16,7 @@ const Reviews = () => {
             <div className="reviews">
                 {
                     reviews.map(review => <Review
-                        key={review.id}
+                        key={review._id}
                         review={review}
                     ></Review>)
                 }

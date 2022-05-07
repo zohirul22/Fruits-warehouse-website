@@ -13,7 +13,8 @@ const Inventor = ({ inventor }) => {
 
 
     return (
-        <div className='inventor   shadow-lg  mb-5 bg-white rounded'>
+       <div className="">
+ <div className='inventor  shadow-lg  mb-5 bg-white rounded'>
             <img style={{ width: "150px" }} src={img} alt="" />
             <h2 className='text-primary'>{name}</h2>
             <h3 className='text-secondary'>Quantity:{quantity}</h3>
@@ -23,7 +24,13 @@ const Inventor = ({ inventor }) => {
             <button onClick={() => navigateUpdate(_id)} className='btn btn-info'>Stock Update :{name}</button>
 
         </div>
+
+       </div>
+      
     );
+
+   
+   
 };
 
 export default Inventor;

@@ -2,7 +2,6 @@
     {
         "name": "Shahin",
         "Rating": "3.44",
-        "id": 1,
         "title": "Awesome...",
         "Purchased": "Fresh Fruits",
         "description": "It's retail shop for daily needs.",
@@ -12,7 +11,6 @@
     {
         "name": "Sumon",
         "Rating": "5.00",
-        "id": 2,
         "title": "Awesome...",
         "Purchased": "Fresh Fruits",
         "description": "This place is amazing , the quality of fruits and vegetables are awesome",
@@ -22,7 +20,6 @@
     {
         "name": "Taniya",
         "Rating": "4.44",
-        "id": 3,
         "title": "Excellent...",
         "Purchased": "Fresh Fruits",
         "description": "The quality of fruits and vegetables is excellent",
