@@ -24,11 +24,12 @@ function App() {
             <Updatepage></Updatepage>
           </RequireAuth>
         }></Route>
+         <Route path='inventor' element={<AllInventory></AllInventory>}></Route>
+
         <Route path='/blog' element={<Blog></Blog>}></Route>
         <Route path='/login' element={<Login></Login>}></Route>
         <Route path='/registar' element={<Register></Register>}></Route>
-        <Route path='inventor' element={<AllInventory></AllInventory>}></Route>
-
+       
         <Route path='*' element={<Notfound></Notfound>}></Route>
       </Routes>
       <Footer></Footer>

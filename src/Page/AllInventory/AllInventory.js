@@ -17,8 +17,10 @@ const AllInventory = () => {
                     allinventory.map(inventor => <Allinventor
                         key={inventor._id}
                         inventor={inventor}
+                      
                     ></Allinventor>)
                 }
+              
             </div>
         </div>
     );

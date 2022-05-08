@@ -9,8 +9,8 @@ const Inventory = () => {
 
     const navigate = useNavigate();
 
-    const navigateUpdate = (id) => {
-        navigate(`/inventor/`)
+    const navigateAllInventor = (id) => {
+        navigate('/inventor')
     }
 
     useEffect(() => {
@@ -30,7 +30,7 @@ const Inventory = () => {
                 }
             </div>
             <div className='allinventor'>
-                <button onClick={() => navigateUpdate()} className='btn btn-primary w-25'>All inventory...</button>
+                <button onClick={() => navigateAllInventor()} className='btn btn-primary w-25'>All inventory...</button>
             </div>
         </div>
     );

@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
 import './UpdataPage.css'
 
-const Updatepage = ({ name }) => {
+const Updatepage = () => {
     const { inventorId } = useParams();
     const [inventor, setInventor] = useState({});
     useEffect(() => {

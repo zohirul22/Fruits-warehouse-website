@@ -10,8 +10,6 @@ const Inventor = ({ inventor }) => {
         navigate(`/inventor/${id}`)
     }
 
-
-
     return (
        <div className="">
  <div className='inventor  shadow-lg  mb-5 bg-white rounded'>
